@@ -1,0 +1,20 @@
+{
+  "mode": "fast",
+  "study_name": "xgb_optuna_resume_fast",
+  "best_trial": 15,
+  "best_cv_rmse": 296.8573882307455,
+  "params": {
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "random_state": 42,
+    "n_jobs": -1,
+    "n_estimators": 700,
+    "max_depth": 10,
+    "learning_rate": 0.03127821153667549,
+    "reg_alpha": 5.735927640013758,
+    "reg_lambda": 0.00010372509552393769,
+    "subsample": 0.9371098535274872,
+    "colsample_bytree": 0.8547942897454317,
+    "min_child_weight": 1.923990116194394
+  }
+}

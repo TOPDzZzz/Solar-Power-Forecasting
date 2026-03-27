@@ -1,0 +1,34 @@
+{
+  "mode": "standard",
+  "study": {
+    "study_name": "xgb_optuna_resume_standard",
+    "storage": "sqlite:////home/mw/project/models/optuna_study_standard.db",
+    "total_trials": 43,
+    "added_trials_this_run": 40,
+    "best_trial": 29,
+    "best_cv_rmse": 282.7873629109882,
+    "best_params": {
+      "max_depth": 10,
+      "learning_rate": 0.01937153185437744,
+      "reg_alpha": 0.0023950739345747402,
+      "reg_lambda": 0.0011653267347876018,
+      "subsample": 0.7004716396441606,
+      "colsample_bytree": 0.7288020206987377,
+      "min_child_weight": 1.9758118598287242
+    }
+  },
+  "split_time": "2020-06-11 15:00:00",
+  "n_features": 39,
+  "holdout_metrics": {
+    "rmse": 673.3415543226107,
+    "mse": 453388.8487775893,
+    "mae": 283.3967712025285,
+    "r2": 0.9532159595972319
+  },
+  "artifacts": {
+    "best_model_during_search": "/home/mw/project/models/xgb_best_during_optuna_standard.json",
+    "best_trial_info": "/home/mw/project/models/best_trial_info_standard.json",
+    "final_model": "/home/mw/project/models/xgb_final_optuna_standard.json",
+    "study_db": "/home/mw/project/models/optuna_study_standard.db"
+  }
+}
